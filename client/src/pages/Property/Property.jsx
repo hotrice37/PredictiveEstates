@@ -73,7 +73,7 @@ const Property = () => {
               <div className="flexStart head">
                 <span className="primaryText">{data?.title}</span>
                 <span className="orangeText" style={{ fontSize: '1.5rem' }}>
-                  $ {data?.price}
+                  Rs {data?.price}
                 </span>
               </div>
               <div className="flexStart facilities">
@@ -96,7 +96,7 @@ const Property = () => {
               <div className="flexStart" style={{ gap: '1rem' }}>
                 <MdLocationPin size={25} />
                 <span className="secondaryText">
-                  {data?.address} {data?.city} {data?.country}
+                  {data?.address}, {data?.city}, {data?.country}
                 </span>
               </div>
               {bookings?.map((booking) => booking.id).includes(id) ? (

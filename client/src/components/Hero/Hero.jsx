@@ -22,7 +22,7 @@ const Hero = () => {
             <span>Welcome to the best Real Estate Website of Nepal </span>
             <span>Find the property the suits YOU</span>
           </div>
-          <SearchBar />
+          {/* <SearchBar /> */}
         </div>
         {/*right section*/}
         <div className="flexCenter hero-right">
